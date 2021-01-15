@@ -1,0 +1,196 @@
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
+
+  body#social_landing{
+    /*background: linear-gradient(25deg, #fcdf17, #d7313d, #a742a0, #4945a3);*/
+    background: linear-gradient(25deg, #d03b57, #d03b57, #5950a0, #5950a0);
+   /* background-size: 400% 400%;*/
+   
+    text-align: center;
+    font-family: 'Open Sans', serif;
+    max-width: 650px;
+    margin: auto;
+    font-size: 1em;
+    color: #e0e0e0;
+
+  }
+
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+  a:visited{
+    columns: #ccc;
+  }
+input {
+    padding: 10px;
+    font-weight: bold;
+    margin: 5px;
+    border: 2px solid #00dc80;
+}
+
+#widgetzone{
+    max-width: 600px;
+    margin:auto;
+}
+ul{
+  list-style: none;
+}
+ul li{
+  padding:5px;
+}
+
+.widget_facilius_social_links,.widget_facilius_image_linkpic,.widget_text{
+  padding:15px;
+}
+.widget_facilius_image_linkpic img{
+    border-radius: 5px;
+}
+.widget_facilius_social_links a{
+
+    width: 100%;
+    padding: 1em 0.5em;;
+    border: 1px solid #235789;
+    border-radius: 5px;
+    margin: 0px;
+    display: block;
+    /*background-color: rgba(12, 20, 119, 0.7);
+    font-size: 20px;*/
+    background-color:rgba(35, 87, 137, 0.65);
+    font-size: 1em;
+    font-weight: bold;
+}
+.widget_facilius_social_links a:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+div.sociallandingbutton{
+  border-radius:5px;
+}
+
+.widget_social_landing_whatsapp_ctc {
+    padding: 15px;
+}
+
+.sociallandingwhatsapp a{
+    
+    background: #25D366;
+    width: 100%;
+    padding: 1em 0.5em;
+    border: 1px solid #128C7E;
+    border-radius: 5px;
+    margin: 0px;
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    position: relative;
+}
+
+.sociallandingwhatsapp svg {
+    width: 6%;
+    position: absolute;
+    left: 3%;
+    top: 16%;
+}
+
+
+
+#slprofilepic{
+    max-width: 13em;
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+}
+
+.widget_facilius_social_links a:hover{
+  background:#fff;
+  color:#000;
+}
+header{
+    padding-top:20px;
+}
+header img{
+    box-shadow: 0px 0px 12px black;
+    border-radius: 50%;
+}
+header h1 {
+    /*font-size: 24pt;*/
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+header p {
+    font-size: 16pt;
+    color: #e0e0e0;
+}
+
+@-webkit-keyframes background-effect{
+    0%{
+        background-position:51% 0%
+    }
+    50%{
+        background-position:50% 100%
+    }
+    100%{
+        background-position:51% 0%
+    }
+}
+@-moz-keyframes background-effect{
+    0%{
+        background-position:51% 0%
+    }
+    50%{
+        background-position:50% 100%
+    }
+    100%{
+        background-position:51% 0%
+    }
+}
+@-ms-keyframes background-effect{
+    0%{
+        background-position:51% 0%
+    }
+    50%{
+        background-position:50% 100%
+    }
+    100%{
+        background-position:51% 0%
+    }
+}
+@-o-keyframes background-effect{
+    0%{
+        background-position:51% 0%
+    }
+    50%{
+        background-position:50% 100%
+    }
+    100%{
+        background-position:51% 0%
+    }
+}
+@keyframes background-effect{
+    0%{
+        background-position:51% 0%
+    }
+    50%{
+        background-position:50% 100%
+    }
+    100%{
+        background-position:51% 0%
+    }
+}
+
+/*Emoji Support*/
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
