@@ -5,4 +5,4 @@ WordPress plugin to create a useful landing page with links.
 
 It creates a new sidebar with a set of widgets that allows to create links, image links and support some native widgets (Like image widget).
 
-Demo: https://lavidafreelance.com
+Demo: https://lavidafreelance.com/insta
